@@ -594,7 +594,7 @@ Vicra.png-logo {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #0f33ff;
+    background-color: #00704A;
     border: none;
     opacity: 0;
     visibility: hidden;
@@ -691,7 +691,7 @@ Vicra.png-logo {
 }
 
 .side-nav li.is-active {
-    color: #0f33ff;
+    color: #00704A;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out
 }
@@ -757,7 +757,7 @@ Vicra.png-logo {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #0f33ff
+    background-color: #00704A
 }
 
 .intro--banner h1 {
@@ -783,7 +783,7 @@ Vicra.png-logo {
     left: 23px;
     right: 0;
     height: 100%;
-    background-color: #0f33ff;
+    background-color: #00704A;
     z-index: -1;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
@@ -1181,7 +1181,7 @@ Vicra.png-logo {
     left: 200px;
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
-    border: 5px solid #0f33ff;
+    border: 5px solid #00704A;
     border-right-color: transparent;
     border-bottom-color: transparent
 }
@@ -1195,7 +1195,7 @@ Vicra.png-logo {
     transform: rotate(45deg);
     width: 10px;
     height: 10px;
-    background-color: #0f33ff
+    background-color: #00704A
 }
 
 .about--banner h2 {
@@ -1214,7 +1214,7 @@ Vicra.png-logo {
     left: 268px;
     width: 30px;
     height: 30px;
-    background-color: #0f33ff;
+    background-color: #00704A;
     border-radius: 50%
 }
 
@@ -1225,7 +1225,7 @@ Vicra.png-logo {
     left: 255px;
     width: 10px;
     height: 10px;
-    background-color: #0f33ff
+    background-color: #00704A
 }
 
 .about--banner a {
@@ -1277,7 +1277,7 @@ Vicra.png-logo {
     height: 75px;
     text-decoration: none;
     color: #fff;
-    border: 10px solid #0f33ff;
+    border: 10px solid #00704A;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -1460,16 +1460,16 @@ Vicra.png-logo {
 }
 
 .contact--lockup .modal--options li:nth-child(1) {
-    background-color: #1769ff
+    background-color: #00704A
 }
 
 .contact--lockup .modal--options li:nth-child(2) {
-    background-color: #ea4c89
+    background-color: #00704A
 }
 
 .contact--lockup .modal--options li:nth-child(3) {
     margin-bottom: 0;
-    background-color: #0f33ff;
+    background-color: #00704A;
     text-transform: uppercase
 }
 
@@ -1540,7 +1540,7 @@ Vicra.png-logo {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #0f33ff;
+    background-color: #00704A;
     border: none;
     border-radius: 0
 }
@@ -1621,8 +1621,8 @@ Vicra.png-logo {
 }
 
 .work-request--options input[type="checkbox"]:checked+label {
-    background-color: #0f33ff;
-    border-color: #0f33ff
+    background-color: #00704A;
+    border-color: #00704A
 }
 
 .work-request--options input[type="checkbox"]:checked+label svg {
@@ -1664,7 +1664,7 @@ Vicra.png-logo {
 .work-request--information input[type="text"]:focus,
 .work-request--information input[type="email"]:focus {
     outline: none;
-    background-color: #0c0c0c
+    background-color: #000
 }
 
 .work-request--information label {
@@ -1682,28 +1682,12 @@ Vicra.png-logo {
     font-size: 14px
 }
 
-@media (max-width: 767px) {
-    .work-request--options {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-        justify-content: space-around
-    }
 
-    .work-request--options .options-a,
-    .work-request--options .options-b {
-        display: block;
-        width: 20px
-    }
 }
 
 @media (max-width: 600px) {
     .work-request--options {
-        margin: 20px 10px
+        margin: 20px 0
     }
 }
 
@@ -1757,7 +1741,7 @@ Vicra.png-logo {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-    outline: 30px solid #0f33ff;
+    outline: 30px solid #00704A;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
@@ -1785,7 +1769,7 @@ Vicra.png-logo {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #0f33ff
+    outline: 30px solid #00704A
 }
 
 .outer-nav {
@@ -1859,7 +1843,7 @@ Vicra.png-logo {
     width: 110%;
     height: 15px;
     opacity: 0;
-    background-color: #0f33ff
+    background-color: #00704A
 }
 
 .outer-nav>li.is-active::before {
