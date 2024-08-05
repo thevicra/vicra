@@ -1595,13 +1595,13 @@ Vicra.png-logo {
 
 .work-request--options label {
     display: block;
-    width: 200px;
+    width: 300px;
     margin-bottom: 30px;
-    line-height: 50px;
+    line-height: 20px;
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    border: 2px solid #fff;
+    border: 0px solid #fff;
     cursor: pointer;
     -webkit-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
     transition: background-color .2s ease-in-out, border-color .2s ease-in-out
