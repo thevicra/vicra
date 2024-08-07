@@ -1009,6 +1009,22 @@ Vicra.png-logo {
     overflow: hidden
 }
 
+.work--lockup .slider--item-image {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    /* Add a transition for smooth scaling */
+}
+
+.work--lockup .slider--item-image:hover {
+    transform: scale(1.1);
+    /* Scale up the image on hover */
+}
+
+
 .work--lockup .slider--item-image img {
     width: 100%
 }
@@ -1140,6 +1156,34 @@ Vicra.png-logo {
     .work--lockup .slider--item-right {
         display: none
     }
+}
+
+.about {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+    max-width: 75%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto
+}
+
+@media (max-width: 1180px) {
+    .about {
+        max-width: 100%
+    }
+}
 }
 
 .about {
