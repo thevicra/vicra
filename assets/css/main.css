@@ -1164,6 +1164,9 @@ section,
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  align-content: center;
+  padding-left: 0px;
+  border-radius: 10px;
 }
 
 .portfolio-details .swiper-wrapper {
